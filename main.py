@@ -15,7 +15,11 @@ def health():
     return {
         "status": "healthy"
     }
-
+    
+@app.get("/test")
+def test():
+    html = crawl_page("https://example.com")
+    return {"chars": len(html)}
 
 @app.post("/extract")
 def extract(request: ExtractionRequest):
