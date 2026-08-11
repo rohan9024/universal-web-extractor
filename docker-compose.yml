@@ -1,0 +1,15 @@
+services:
+
+  web-extractor:
+
+    build: .
+
+    container_name: universal-web-extractor
+
+    ports:
+      - "8000:8000"
+
+    env_file:
+      - .env
+
+    restart: unless-stopped

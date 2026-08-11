@@ -1,0 +1,47 @@
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Testing
+.pytest_cache/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Docker
+docker-data/
+
+# Playwright
+playwright-report/
+
+# Generated Outputs
+data/
+output/
+exports/
+
+# Temporary Files
+tmp/
+temp/
